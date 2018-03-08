@@ -4,6 +4,9 @@ import org.aopalliance.intercept.MethodInterceptor;
 import org.aopalliance.intercept.MethodInvocation;
 import org.springframework.stereotype.Component;
 
+/**
+ * 环绕增强
+ */
 @Component
 public class GreetingAroundAdvice implements MethodInterceptor {
     private void before(){

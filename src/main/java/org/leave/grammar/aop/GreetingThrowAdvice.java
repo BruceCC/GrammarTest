@@ -6,6 +6,9 @@ import org.springframework.stereotype.Component;
 
 import java.lang.reflect.Method;
 
+/**
+ * 抛出增强
+ */
 @Component
 public class GreetingThrowAdvice implements ThrowsAdvice {
     public void afterThrowing(Method method, Object[] args, Object target, Exception e){
